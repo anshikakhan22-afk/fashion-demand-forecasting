@@ -1,0 +1,45 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+.env.local
+
+# Large datasets and raw downloaded data (keep sample and processed schema)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+!data/sample/*
+
+# Model binaries (can be regenerated with python scripts/train_model.py)
+# Keep .gitkeep
+models/*
+!models/.gitkeep
+
+# Reports and temporary outputs
+reports/*.html
+reports/*.png
+reports/*.pdf
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

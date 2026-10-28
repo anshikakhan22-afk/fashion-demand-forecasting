@@ -1,0 +1,21 @@
+{
+  "dataset_name": "UCI Online Retail (online_retail.csv)",
+  "is_sample": false,
+  "source_path": "C:\\Users\\HP\\Downloads\\Fashion demand forecasting\\data\\raw\\online_retail.csv",
+  "raw_rows": 541909,
+  "retained_rows": 525462,
+  "duplicates_removed": 5268,
+  "cancellations_filtered": 9725,
+  "fashion_coverage_pct": 13.11,
+  "target_convention": "Gross weekly unit sales (forward purchases with returns separated)",
+  "categories": [
+    "Accessories",
+    "Dresses",
+    "Footwear",
+    "Other",
+    "Outerwear",
+    "Tops",
+    "Trousers"
+  ],
+  "weekly_records": 419
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "model_name": "Naive Baseline",
+    "model_type": "naive",
+    "MAE": 178.82,
+    "RMSE": 249.84,
+    "WAPE": 24.23,
+    "MAPE": 24.65,
+    "test_periods": 11
+  },
+  {
+    "model_name": "4-Week Moving Average Baseline",
+    "model_type": "moving_average",
+    "MAE": 324.68,
+    "RMSE": 389.53,
+    "WAPE": 44.0,
+    "MAPE": 39.58,
+    "test_periods": 11
+  },
+  {
+    "model_name": "Random Forest Regressor (ML)",
+    "model_type": "random_forest",
+    "MAE": 312.89,
+    "RMSE": 381.94,
+    "WAPE": 42.4,
+    "MAPE": 37.57,
+    "test_periods": 11
+  }
+]
