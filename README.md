@@ -400,3 +400,5 @@ git push -u origin main
 
 - **Code License:** [MIT License](LICENSE) — free for academic, personal, and commercial usage.
 - **Dataset Attribution:** Online Retail Dataset provided courtesy of Dr. Daqing Chen, School of Engineering, London South Bank University, London SE1 0AA, UK, via the UCI Machine Learning Repository.
+#   f a s h i o n - d e m a n d - f o r e c a s t i n g  
+ 
